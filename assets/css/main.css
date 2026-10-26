@@ -1069,31 +1069,8 @@ body::before{
 .certeza__d{ font-size:13px; color:var(--text-muted); line-height:1.6; }
 
 /* ============================================================
-   SOBRE EL PROYECTO
+   POLÍTICA DE VENTA (ex bloque «Quién soy», reubicado en #origen)
    ============================================================ */
-.proyecto{
-  display:grid;
-  grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);
-  gap:clamp(28px,5vw,72px);
-  align-items:start;
-}
-.proyecto__cita{
-  padding:clamp(26px,3.2vw,40px);
-  background:var(--bg-card);
-  border:1px solid var(--border-subtle);
-  border-left:3px solid var(--brand);
-  border-radius:var(--r-lg);
-  font-size:15px;
-  line-height:1.78;
-  color:var(--text-soft);
-}
-.proyecto__cita p + p{ margin-top:16px; }
-.proyecto__cita strong{ color:var(--text-main); font-weight:600; }
-.proyecto h2{
-  font-size:clamp(26px,3.4vw,40px);
-  margin-block:14px 20px;
-  text-wrap:balance;
-}
 .principios{ display:flex; flex-direction:column; gap:2px; margin-top:26px; }
 .principios li{
   display:flex; gap:14px;
@@ -1274,7 +1251,6 @@ body::before{
 @media (max-width: 1080px){
   .hero__grid{ grid-template-columns:1fr; gap:44px; }
   .hero__visual{ max-width:360px; }
-  .proyecto{ grid-template-columns:1fr; }
   .footer__grid{ grid-template-columns:repeat(2, minmax(0,1fr)); }
 }
 
