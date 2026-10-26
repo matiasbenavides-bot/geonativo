@@ -1,0 +1,10 @@
+# Capturas de verificación: no son parte del sitio
+_capturas/
+
+# Variantes de color en evaluación
+variantes/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
