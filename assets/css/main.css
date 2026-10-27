@@ -1091,6 +1091,18 @@ body::before{
 }
 
 /* ============================================================
+   ENTREGA — dos modalidades dentro de «Cómo comprar»
+   ============================================================ */
+.grid-entrega{
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  margin-top:28px;
+}
+.grid-entrega .especie{ display:block; }
+@media (max-width: 780px){
+  .grid-entrega{ grid-template-columns:1fr; }
+}
+
+/* ============================================================
    ROADMAP / próximos pasos
    ============================================================ */
 .roadmap{
